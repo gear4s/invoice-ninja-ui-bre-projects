@@ -5,9 +5,9 @@ name: Build, test & lint
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main]
   pull_request:
-    branches: [main, develop, redesign]
+    branches: [main]
 
 jobs:
   build:
